@@ -1,0 +1,314 @@
+body
+{
+        background-color: #2C2C2C;
+        color: white;
+        background-repeat: no-repeat;
+}
+
+#menu, #menu ul /* Liste */     
+{
+        padding : 0; /* pas de marge intérieure */
+        margin : 0; /* ni extérieure */
+        list-style : none; /* on supprime le style par défaut de la liste */
+        line-height : 21px; /* on définit une hauteur pour chaque élément */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu /* Ensemble du menu */
+{
+        font-weight : bold; /* on met le texte en gras */
+        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+        font-size : 12px; /* hauteur du texte : 12 pixels */
+}
+
+#menu a /* Contenu des listes */
+{
+        display : inline-block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background : #000; /* couleur de fond */        
+        color : #000; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 144px; /* largeur */
+}
+
+#menu li /* Elements des listes */      
+{ 
+        float : center;
+        display:inline-block; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #000; /* on met une bordure blanche à droite de chaque élément */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li
+{
+        border-right: 1px solid transparent ; /* on met une bordure transparente à droite de chaque élément */
+}
+
+#menu li ul /* Sous-listes */
+{ 
+        position: absolute; /* Position absolue */
+        width: 144px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+
+#menu li ul li /* Éléments de sous-listes */
+{
+        /* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-top : 1px solid #000; /* on met une bordure blanche en haut de chaque élément d'une sous liste */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li ul li                
+{
+        border-top : 1px solid transparent; /* on met une bordure transparente en haut de chaque élément */
+}
+
+#menu a:hover /* Lorsque la souris passe sur un des liens */    
+{
+        color: #000; /* On passe le texte en noir... */
+        background: #fff; /* ... et au contraire, le fond en blanc */
+}
+
+#menu a 
+{
+        display : inline-block; 
+        padding : 0; 
+        background : #fff; 
+        color : #000; 
+        text-decoration : none; 
+        width : 144px; /* <<<<<< ICI */
+}
+
+...
+
+#menu li ul 
+{ 
+        position: absolute; 
+        width: 144px; /* <<<<<< ET ICI */
+        visibility: hidden; 
+}
+
+...
+
+
+#menu li ul ul 
+{
+        margin    : -22px 0 0 144px ; 
+        border-left     : 1px solid #fff ; /* <<<<<< sans oublier ICI */
+}
+
+#menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+{
+        left: -999em; /* On expédie les sous-sous-listes hors du champ de vision */
+}
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+{
+        left: auto; /* Repositionnement normal */
+        min-height: 0; /* Corrige un bug sous IE */
+}
+
+ul#menu li.bouton_gauche 
+{
+        float : left;
+        border-right : 1px; 
+}
+
+ul#menu li.bouton_hautgauche 
+{
+        float : left;
+        border-right : 1px; 
+}
+ 
+ul#menu li.bouton_droite 
+{
+        float : right;
+        border-left : 1px;
+}
+
+ul#menu li.bouton_hautdroite 
+{
+        float : right;
+        border-left : 1px;
+}
+
+ul#menu li.bouton_haut1
+{
+        position: relative;
+        top: 555px; left: 545px;;
+}
+
+ul#menu li.bouton_haut2
+{
+        position: relative;
+        top: 555px; left: 544px;;
+}
+
+ul#menu a:hover 
+{ 
+    text-decoration : underline; 
+    color: green;
+}
+
+ul#menu a img 
+{
+        border : none;
+        padding :  0 0.3em;
+        width: 15px;
+        height: 15px;
+}
+
+#banniere
+{
+    height: auto;
+    width: auto;
+}
+
+.stockV
+{
+    color: green;
+}
+
+.stockO
+{
+    color: orange;
+}
+
+.stockR
+{
+    color: red;
+}
+
+.Gras
+{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Infos
+{
+    float: center;
+}
+
+.continuer
+{
+    color: yellow;
+}
+
+.panier
+{
+    background-color: white;
+    color: transparent;
+    opacity: 1;
+    background-image: url("../Images/cross.png");
+    width: 12px;
+    height: 20px;
+}
+
+.tabPanier
+{
+    padding: 25px;
+    height: 25px;
+}
+
+.moins
+{
+    border-radius: 11px;
+    background-color: white;
+    color: transparent;
+    opacity: 1;
+    background-image: url("../Images/moins.png");
+    width: 12px;
+    height: 20px;
+}
+
+.plus
+{
+    border-radius: 11px;
+    background-color: white;
+    color: transparent;
+    opacity: 1;
+    background-image: url("../Images/plus.png");
+    width: 12px;  
+    height: 20px;  
+}
+.text
+{
+    float: center;
+}
+
+#menuCI, #menuCI ul /* Liste */     
+{
+        padding : 0; /* pas de marge intérieure */
+        margin : 0; /* ni extérieure */
+        list-style : none; /* on supprime le style par défaut de la liste */
+        line-height : 21px; /* on définit une hauteur pour chaque élément */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menuCI /* Ensemble du menu */
+{
+        font-weight : bold; /* on met le texte en gras */
+        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+        font-size : 16px; /* hauteur du texte : 12 pixels */
+        border-color: white;
+}
+
+#menuCI a /* Contenu des listes */
+{
+        display : inline-block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background : #2C2C2C; /* couleur de fond */        
+        color : #fff; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 198px; /* largeur */
+}
+
+#menuCI li /* Elements des listes */      
+{ 
+        float : center; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #000; /* on met une bordure blanche à droite de chaque élément */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menuCI li
+{
+        border-right: 1px solid transparent ; /* on met une bordure transparente à droite de chaque élément */
+}
+ul#menuCI a:hover 
+{
+    text-decoration : underline; 
+    color: yellow;
+}
+
+.suivie1
+{
+    background-color: #ffa100;
+    color: white;
+    text-align: center;
+}
+
+.lisuivie1
+{
+    background-color: #ffc768;
+    color: white;
+    text-align: center;
+}
+
+.suivie2
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.lisuivie2
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+}

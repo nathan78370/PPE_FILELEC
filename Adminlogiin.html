@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Se connecter</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<center><h1 style="flex: 1;font-size: 24px;padding: 0;margin: 0;color: #eaebed;font-weight: normal;">FilElec Store</h1></center>
+		  <h2 style="\.content\ h2\ \{\ margin: 0;padding: 25px 0;font-size: 22px;border-bottom: 1px solid #e0e0e3;color: #e0e0e3;"> Accueil </h2>  
+		  <p style="box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);margin: 25px 0;padding: 25px;background-color: #e0e0e3;"> Bienvenue ! Connectez vous !</p>		
+		<div class="login">
+			<h1>Se connecter</h1>
+			<form action="FonctionsPHP/AdminLog.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+		<div class="resume">
+			Bienvenue sur le bureau d'administration de FileElec Store, ici vous pourrez modifier convenablement votre support internet.
+		</div>
+	</body>
+	<footer style="position: absolute;bottom: 0;color:#eaebed; border-top: 1px solid #e0e0e3;padding: 20px 0;width: 100%;">
+        <div class="content-wrapper">
+            <p>© 2020, NaYaSaEl</p>
+        </div>
+    </footer>
+</html>

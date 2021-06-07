@@ -1,0 +1,197 @@
+.iris 
+{
+	color: wheat;
+	font-size: 15px;
+}
+
+p 
+{
+	color: wheat;
+	font-size: 15px;
+}
+
+table 
+{
+    width: 95%;
+}
+
+table, th, td 
+{
+    border: 1px solid midnightblue;
+    border-collapse: collapse;
+}
+
+th, td 
+{
+    padding: 15px;
+    text-align: left;
+}
+
+table#t01 tr:nth-child(even) 
+{
+    background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) 
+{
+   background-color: #fff;
+}
+
+table#t01 th 
+{
+    background-color: midnightblue;
+    color: white;
+}
+
+img {
+	width: 10%;
+}
+
+h3 {
+  background: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul {
+  width: 50%;
+  margin-left: auto;
+  list-style-type: none;
+  background: black;
+  font-size: 15px;
+}
+
+li {
+  height: 50px;
+  line-height: 20px;
+  border-top: 1px solid #e9ecef;
+  font-size: 15px;
+}
+
+ul a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: tblue;
+  padding-left: 15px;
+  position: relative;
+  transition: background .3s;
+  font-size: 15px;
+}
+
+ul a:after {
+  content: '⇢';
+  position: absolute;
+  right: 10px;
+  font-size: 15px;
+}
+
+ul a:hover {
+  background: #cdcbc4;
+  font-size: 15px;
+}
+/* CHECKBOX CONTAINER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container {
+  position: relative;
+  height: auto;
+  border-top: 0;
+}
+
+[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+label {
+  background: #e4e3df;
+  display: block;
+  width: 25%;
+  height: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  top: ;
+  transition: top .45s cubic-bezier(.44, .99, .48, 1);
+}
+
+label:hover 
+{
+	background: lightgrey;
+}
+
+
+label:before,
+label:after 
+{
+  position: absolute;
+}
+
+label:before 
+{
+  content: "More";
+  left: 8px;
+}
+
+label:after 
+{
+  content: '⇣●';
+  right: 10px;
+  -webkit-animation: sudo .85s linear infinite alternate;
+  animation: sudo .85s linear infinite alternate;
+}
+
+@keyframes sudo 
+{
+  from {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  to {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+}
+
+input[type="checkbox"] ~ ul 
+{
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .45s cubic-bezier(.44, .99, .48, 1);
+}
+/* CHECKED STATE STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+[type="checkbox"]:checked ~ ul 
+{
+  /**
+   * the value of the `max-height` property specifies the transition speed
+   * set a very big value (e.g. 9999px) to see the difference
+   */
+  
+  max-height: 3000px;
+}
+
+[type="checkbox"]:checked + label 
+{
+  top: 100%;
+}
+
+[type="checkbox"]:checked + label:before 
+{
+  content: 'Less';
+}
+
+[type="checkbox"]:checked + label:after 
+{
+  content: '⇡●';
+}
+
+ul li:last-child 
+{
+  margin-bottom: 50px;
+}
