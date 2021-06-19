@@ -1,6 +1,6 @@
-drop database if exists Filelec;
-create database Filelec;
-use Filelec;
+drop database if exists Filelec1;
+create database Filelec1;
+use Filelec1;
 
 create table client
 (

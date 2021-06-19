@@ -45,7 +45,7 @@
         </li>
         <li><i class="fa fa-phone"></i> +00 (000) 000 000</li>
         <li><i class="fa fa-fax"></i> +00 (000) 000 0000</li>
-        <li><i class="fas fa-at"><a href="vueContact.php"> </i>filelec.contact.service@gmail.com</a></li>
+        <li><i class="fas fa-at"><a href="vueContact.php"> </i>FILELEC@FILELEC.COM</a></li>
       </ul>
     </div>
     <!-- ################################################################################################ -->

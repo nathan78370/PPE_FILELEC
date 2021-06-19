@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce7f003c-0a12-4a7c-a6c6-c45b21d0b995" name="Default Changelist" comment="FILELEC v3.0">
-      <change afterPath="$PROJECT_DIR$/function/function.php" afterDir="false" />
+    <list default="true" id="ce7f003c-0a12-4a7c-a6c6-c45b21d0b995" name="Default Changelist" comment="FILELEC v3.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuePanier.php" beforeDir="false" afterPath="$PROJECT_DIR$/vuePanier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vueProfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/PPE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/PPE.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -87,7 +86,7 @@
       <workItem from="1623591325667" duration="824000" />
       <workItem from="1623592526281" duration="976000" />
       <workItem from="1623938474750" duration="681000" />
-      <workItem from="1624092323854" duration="262000" />
+      <workItem from="1624092323854" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="ajout ppe">
       <created>1623012580860</created>
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623050766095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FILELEC v3.1">
+      <created>1624092967844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624092967844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +154,8 @@
     <MESSAGE value="ajout table admin" />
     <MESSAGE value="ajout fonction et panel admin" />
     <MESSAGE value="FILELEC v3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="FILELEC v3.0" />
+    <MESSAGE value="FILELEC v3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="FILELEC v3.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

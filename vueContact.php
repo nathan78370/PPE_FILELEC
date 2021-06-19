@@ -74,7 +74,7 @@ include("EnTete/enteteHaut.php");
                     <p>6-8 Impasse des 2 Cousins</p>
                     <p>75017 PARIS</p>
                     <p>France</p>
-                    <p>Email : filelec.contact.service@gmail.com</p>
+                    <p>Email : FILELEC@FILELEC.COM</p>
                     <p>Tel. +33 00 00 00 00</p>
 
                 </div>
