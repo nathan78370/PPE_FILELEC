@@ -1,7 +1,7 @@
 <?php
 	include("EnTete/enteteHaut.php"); 
 	include ("Controlleur/controlleur.class.php");
-    $unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+    include("function/function.php");
     if (isset($_POST["Valider"]))
     {
       $unControlleur -> setTable('client');

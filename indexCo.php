@@ -9,7 +9,7 @@
 	{
 	    header("Location: vueAccueil.php");
 	}
-	$unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+include("function/function.php");
 ?>
 
 <!DOCTYPE html>

@@ -3,11 +3,11 @@ ob_start();
 include("EnTete/enteteHautCo.php");
 
 include ("Controlleur/controlleur.class.php");
-$unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+$unControlleur = new Controlleur("localhost", "Filelec1", "root", "");
 $unControlleur -> setTable("ligneCommande");
 $resultat = $unControlleur -> selectStats($_SESSION['idC']);
 
-$unControlleur2 = new Controlleur("localhost", "Filelec", "root", "");
+$unControlleur2 = new Controlleur("localhost", "Filelec1", "root", "");
 $unControlleur2 -> setTable("commande");
 $resultat2 = $unControlleur -> selectStats2($_SESSION['idC']);
 

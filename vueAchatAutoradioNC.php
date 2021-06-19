@@ -1,7 +1,7 @@
 <?php 
 	include ("Controlleur/controlleur.class.php");
 	include("EnTete/enteteHaut.php");
-    $unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+include("function/function.php");
     ?>
 
      <!-- DEBUT -->

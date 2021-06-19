@@ -1,70 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce7f003c-0a12-4a7c-a6c6-c45b21d0b995" name="Default Changelist" comment="FILELEC v2.0">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BTS_SIO.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f43d566-860d-47f5-a534-b7d360570548.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f43d566-860d-47f5-a534-b7d360570548/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f43d566-860d-47f5-a534-b7d360570548/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f43d566-860d-47f5-a534-b7d360570548/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f43d566-860d-47f5-a534-b7d360570548/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_06_2021_13_59_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_06_2021_13_59__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ce7f003c-0a12-4a7c-a6c6-c45b21d0b995" name="Default Changelist" comment="FILELEC v3.0">
+      <change afterPath="$PROJECT_DIR$/function/function.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_notes/dwsync.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/_notes/dwsync.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/my-login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/_notes/dwsync.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/autoradio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/carre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/enceinte.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/enjoliveurs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/equipements-son.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/equipements_illustration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/equipements_toit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gilet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gps1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/radar_recul.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/son_12v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/_notes/dwsync.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/adminc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/articles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/articles_last.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/articles_lasted.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/cart_articles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/deconnexion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/loginc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/registerc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/includes/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sql/filelec - Copie.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sql/filelec.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commande.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconnexion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_legales.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profil.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuePanier.php" beforeDir="false" afterPath="$PROJECT_DIR$/vuePanier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vueProfil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,15 +14,50 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Accueil" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1623592602" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Accueil" />
+                    <option name="lastUsedInstant" value="1623591399" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1tZi9J1dlZ6yZUkR3pacsbnsITL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -108,6 +84,10 @@
       <workItem from="1622982866492" duration="8882000" />
       <workItem from="1623012429525" duration="411000" />
       <workItem from="1623017729235" duration="4996000" />
+      <workItem from="1623591325667" duration="824000" />
+      <workItem from="1623592526281" duration="976000" />
+      <workItem from="1623938474750" duration="681000" />
+      <workItem from="1624092323854" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="ajout ppe">
       <created>1623012580860</created>
@@ -137,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623021986619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="FILELEC v3.0">
+      <created>1623050766095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623050766095</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +147,8 @@
     <MESSAGE value="ajout tacle admin" />
     <MESSAGE value="ajout table admin" />
     <MESSAGE value="ajout fonction et panel admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout fonction et panel admin" />
+    <MESSAGE value="FILELEC v3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="FILELEC v3.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

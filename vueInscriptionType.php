@@ -1,6 +1,6 @@
 <?php
 include ("Controlleur/controlleur.class.php");
-$unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+include("function/function.php");
 //Particulier
 	if (isset($_POST['Particulier']))
 	{

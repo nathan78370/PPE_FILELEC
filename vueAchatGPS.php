@@ -3,7 +3,7 @@
 ob_start();
 	include("EnTete/enteteHautCo.php");
 	include ("Controlleur/controlleur.class.php");
-	$unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+    include("function/function.php");
 	if (isset($_POST["deco"])) 
 	{
 	    session_destroy();

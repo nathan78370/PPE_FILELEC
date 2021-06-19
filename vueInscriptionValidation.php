@@ -1,7 +1,7 @@
 <?php 
 include ("Controlleur/controlleur.class.php");
-include("EnTete/enteteHaut.php"); 
-$unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+include("EnTete/enteteHaut.php");
+include("function/function.php");
 if (isset($_POST['ValiderFinal']))
 	{
 		header("Location: vueAccueilCo.php");

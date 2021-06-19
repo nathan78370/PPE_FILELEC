@@ -1,8 +1,8 @@
 <?php
 
 include ("Controlleur/controlleur.class.php");
-include("EnTete/enteteHaut.php"); 
-$unControlleur = new Controlleur("localhost", "Filelec", "root", "");
+include("EnTete/enteteHaut.php");
+include("function/function.php");
 if (isset($_POST['ValiderPart']))
 {
 	if( (!empty($_POST['PrenomC'])) && (!empty($_POST['NomC'])) && (!empty($_POST['AdrC'])) && (!empty($_POST['Ville'])) && (!empty($_POST['CP'])) && (!empty($_POST['Pays'])) )
